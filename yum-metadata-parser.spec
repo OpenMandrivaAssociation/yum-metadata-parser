@@ -10,15 +10,14 @@ Requires:       yum >= 2.6.2
 BuildRequires:  python-devel
 BuildRequires:  glib2-devel
 BuildRequires:  libxml2-devel
-BuildRequires:  sqlite-devel
-BuildRequires:  pkgconfig
+BuildRequires:  sqlite3-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Fast metadata parser for yum implemented in C.
 
 %prep
-%setup
+%setup -q
 
 %build
 %{__python} setup.py build
