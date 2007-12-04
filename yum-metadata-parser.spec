@@ -1,18 +1,18 @@
-Summary: A fast metadata parser for yum
-Name: yum-metadata-parser
-Version: 1.1.2
-Release: %mkrel 1
-License: GPL
-Group: Development/Libraries
-URL: http://devel.linux.duke.edu/cgi-bin/viewcvs.cgi/yum-metadata-parser/
-Source0: http://linux.duke.edu/projects/yum/download/yum-metadata-parser/%{name}-%{version}.tar.gz
-Requires: yum >= 2.6.2
-BuildRequires: python-devel
-BuildRequires: glib2-devel
-BuildRequires: libxml2-devel
-BuildRequires: sqlite-devel
-BuildRequires: pkgconfig
-BuildRoot:  %{_tmppath}/%{name}-%{version}
+Name:       yum-metadata-parser
+Version:    1.1.2
+Release:    %mkrel 1
+Summary:    A fast metadata parser for yum
+License:    GPL
+Group:      System/Configuration/Packaging
+URL:        http://devel.linux.duke.edu/cgi-bin/viewcvs.cgi/yum-metadata-parser/
+Source0:    http://linux.duke.edu/projects/yum/download/yum-metadata-parser/%{name}-%{version}.tar.gz
+Requires:       yum >= 2.6.2
+BuildRequires:  python-devel
+BuildRequires:  glib2-devel
+BuildRequires:  libxml2-devel
+BuildRequires:  sqlite-devel
+BuildRequires:  pkgconfig
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Fast metadata parser for yum implemented in C.
@@ -37,4 +37,3 @@ Fast metadata parser for yum implemented in C.
 %{python_sitearch}/sqlitecachec.pyc
 %{python_sitearch}/sqlitecachec.pyo
 %{python_sitearch}/yum_metadata_parser-*.egg-info
-
