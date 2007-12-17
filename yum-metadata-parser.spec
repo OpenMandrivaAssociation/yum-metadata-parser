@@ -11,7 +11,6 @@ BuildRequires:  python-devel
 BuildRequires:  glib2-devel
 BuildRequires:  libxml2-devel
 BuildRequires:  sqlite3-devel
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Fast metadata parser for yum implemented in C.
