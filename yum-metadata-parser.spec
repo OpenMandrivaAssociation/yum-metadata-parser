@@ -1,6 +1,6 @@
 Name:       yum-metadata-parser
 Version:    1.1.2
-Release:    %mkrel 4
+Release:    %mkrel 5
 Summary:    A fast metadata parser for yum
 License:    GPL
 Group:      System/Configuration/Packaging
