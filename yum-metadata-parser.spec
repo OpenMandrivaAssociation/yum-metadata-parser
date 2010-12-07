@@ -1,6 +1,6 @@
 Name:       yum-metadata-parser
 Version:    1.1.4
-Release:    %mkrel 2
+Release:    %mkrel 3
 Summary:    A fast metadata parser for yum
 License:    GPL
 Group:      System/Configuration/Packaging
@@ -33,6 +33,4 @@ Fast metadata parser for yum implemented in C.
 %doc README AUTHORS ChangeLog
 %{python_sitearch}/_sqlitecache.so
 %{python_sitearch}/sqlitecachec.py
-%{python_sitearch}/sqlitecachec.pyc
-%{python_sitearch}/sqlitecachec.pyo
 %{python_sitearch}/yum_metadata_parser-*.egg-info
