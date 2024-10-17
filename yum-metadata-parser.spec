@@ -4,7 +4,7 @@ Release:    6
 Summary:    A fast metadata parser for yum
 License:    GPL
 Group:      System/Configuration/Packaging
-URL:        http://devel.linux.duke.edu/cgi-bin/viewcvs.cgi/yum-metadata-parser/
+URL:        https://devel.linux.duke.edu/cgi-bin/viewcvs.cgi/yum-metadata-parser/
 Source0:    http://linux.duke.edu/projects/yum/download/yum-metadata-parser/%{name}-%{version}.tar.gz
 Requires:       yum >= 2.6.2
 BuildRequires:  pkgconfig(python2)
